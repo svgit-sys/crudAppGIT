@@ -6,7 +6,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'app-crud/**'           # Triggers only when app-crud files change
+      - 'mycrud/**'           # Triggers only when app-crud files change
       - '.github/workflows/react-cd.yml'
 
 permissions:
